@@ -7,6 +7,12 @@ Collection of bash scripts to automate the initial setup of a Linux server with 
 - **`serversetup.sh`** - Basic server setup with security hardening
 - **`dockerinit.sh`** - Docker installation and configuration
 
+## Fast startup
+to install docker in the current system
+```bash
+curl -fsSL https://raw.githubusercontent.com/Rishi-k-s/basic-server/main/dockerinit.sh | bash
+```
+
 ## Features
 
 ### Server Setup (`serversetup.sh`)
